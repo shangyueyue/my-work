@@ -1,0 +1,43 @@
+//border
+.border( @color : #000, @width : 1px, @style : solid){
+  border:@width @style @color;
+}
+//border-radius
+.border-radius(@value:5px){
+  border-radius:@value;
+}
+
+//margin
+.mt(@value){
+  margin-top:@value;
+}
+.mr(@value){
+  margin-right:@value;
+}
+.mb(@value){
+  margin-bottom:@value;
+}
+.ml(@value){
+  margin-left:@value;
+}
+
+//padding
+.pt(@value){
+  padding-top:@value;
+}
+.pr(@value){
+  padding-right:@value;
+}
+.pb(@value){
+  padding-bottom:@value;
+}
+.pl(@value){
+  padding-left:@value;
+}
+
+//flex
+.flex(@h:space-between,@v:center){
+  display:flex;
+  justify-content: @h;
+  align-items: @v;
+}
